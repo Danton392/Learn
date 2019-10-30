@@ -8,8 +8,10 @@ namespace HelloWorld
         {
             Console.Write("Írd be a neved: "); //Bekéri a nevet sortörés nélkül
             string nev = Console.ReadLine(); //Változó a nev ebbe tároljuk a nevet
-            Console.Write("Csaaaaaaaaa "); 
-            Console.WriteLine(nev); //kiírja a nevet
+            //Console.Write("Csaaaaaaaaa "); 
+            /*Console.WriteLine(nev);*/ //kiírja a nevet
+            Console.WriteLine("Csaaaaaaaaa " + nev); //kiírja a nevet összefűzve
+
         }
     }
 }
