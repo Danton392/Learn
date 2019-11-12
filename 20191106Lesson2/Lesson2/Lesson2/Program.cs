@@ -28,7 +28,7 @@ namespace Lesson2
 
             Console.WriteLine(szam1);
 
-            if (szam1 > szam2 && szamossz == 7)
+            if (szam1 > szam2 && szamossz == 7) //éssel ha valamelyik feltétel teljesül akkor lefut || Vagy valamelyik feltétel teljesül
             {
                 Console.WriteLine("Első szám nagyobb: "+ szam1);
             }
