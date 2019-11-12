@@ -56,7 +56,7 @@ namespace Lesson3
                         break;
 
                     default:
-                        Console.WriteLine("Élvezd tovább");
+                        Console.WriteLine("Érvénytelen menüpont");
                         break;
                 }
             }
