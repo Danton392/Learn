@@ -8,7 +8,8 @@ namespace Lesson5RandomSzám
         {
             int bekér;
             int számláló = 1;
-            int gondoltszám = 10;
+            Random r = new Random();
+            int gondoltszám = r.Next(1, 11);
             do
             {
                 számláló++;
